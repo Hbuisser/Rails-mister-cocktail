@@ -12,3 +12,7 @@ Ingredient.create(name: "mint leaves")
 Cocktail.create(name: "Mojito")
 Cocktail.create(name: "Bada Boom")
 
+url = "http://static.giantbomb.com/uploads/original/9/99864/2419866-nes_console_set.png"
+cocktail = Cocktail.new(name: 'Big Buys')
+cocktail.remote_photo_url = url
+cocktail.save
